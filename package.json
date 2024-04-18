@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /color-picker-handlebars/"
+    "build": "parcel build src/*.html --public-url /color-picker-handleBars/ --no-minify"
   },
   "keywords": [],
   "author": "",
