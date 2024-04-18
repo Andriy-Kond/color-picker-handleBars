@@ -5,14 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /color-picker/"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /color-picker-handlebars/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
-    "parcel": "^2.12.0"
+    "parcel": "^2.12.0",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
   }
 }

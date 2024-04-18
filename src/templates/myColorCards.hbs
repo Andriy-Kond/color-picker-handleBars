@@ -1,0 +1,26 @@
+{{! 
+Якщо кидати одразу масив об'єктів, то приймати треба через #each this
+Тобто, якщо викликати так:
+colorCardsTpl([{...}, {...}, ...])
+то треба приймати так:
+#each this
+}}
+
+{{! 
+Якщо кидати об'єкт з властивістю, в який лежить масив об'єктів, то треба передавати назву властивості
+
+Тобто, якщо викликати так: 
+colorCardsTpl({ colors: [{...}, {...}, ...] }) 
+то треба приймати так: 
+#each colors
+}}
+
+{{#each this}}
+  <div class="color-card">
+    <div class="color-swatch" data-hex="{{hex}}" data-rgb="{{rgb}}" style="background-color: {{hex}}"></div>
+    <div class="color-meta">
+      <p>HEX: {{hex}}</p>
+      <p>RGB: {{rgb}}</p>
+    </div>
+  </div>
+{{/each}}
