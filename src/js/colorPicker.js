@@ -1,6 +1,6 @@
 import colorsArr from "../dataBases/colors.json";
 
-import colorCardTpl from "../templates/myColorCard.hbs";
+// import colorCardTpl from "../templates/myColorCard.hbs";
 // console.log("colorCardTpl:::", colorCardTpl(colorsArr[1]));
 
 import colorCardsTpl from "../templates/myColorCards.hbs";
