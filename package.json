@@ -1,6 +1,7 @@
 {
   "name": "color-picker",
   "version": "1.0.0",
+  "homepage": "https://Andriy-Kond.github.io/color-picker-handleBars/",
   "description": "",
   "main": "index.js",
   "scripts": {
